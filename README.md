@@ -6,10 +6,9 @@ Use [withOut](https://github.com/ukoloff/without) templates inside
 ## Install
 
 ``` bash
-docpad install yourpluginname
+docpad install without
 ```
 
 ## License
 
 Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT license](http://creativecommons.org/licenses/MIT/)
-
