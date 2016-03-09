@@ -1,21 +1,15 @@
-# Export Plugin
+cs = require 'coffee-script'
+wo = require 'without'
+
 module.exports = (BasePlugin) ->
 	# Define Plugin
-	class YourpluginnamePlugin extends BasePlugin
-		# Plugin name
-		name: 'yourpluginname'
+	BasePlugin.extend
+		name: 'without'
 
-		# Render
-		# Called per document, for each extension conversion. Used to render one extension to another.
 		render: (opts) ->
-			# Prepare
-			{inExtension,outExtension,file} = opts
+			return unless 'wo'==opts.inExtension
 
-			# Upper case the text document's content if it is using the convention txt.(uc|uppercase)
-			if inExtension in ['uc','uppercase'] and outExtension in ['txt',null]
+			t = wo new Function cs.compile opts.content, bare: true
+			opts.content = t opts.templateData
 
-				# Render synchronously
-				opts.content = opts.content.toUpperCase()
-
-			# Done
 			return
