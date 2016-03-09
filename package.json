@@ -1,44 +1,30 @@
 {
-  "name": "docpad-plugin-yourpluginname",
+  "name": "docpad-plugin-without",
   "version": "2.0.0",
-  "description": "DocPad plugin that adds the ability to render Something to Something Else",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "description": "DocPad plugin that adds the ability to render withOut CoffeeScript templates to HTML",
+  "homepage": "https://github.com/ukoloff/docpad-plugin-without",
   "license": {
     "type": "MIT"
   },
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "without",
+    "renderer",
+    "coffeescript",
+    "coffee-script",
+    "coffee"
   ],
-  "badges": {
-    "travis": true,
-    "npm": true,
-    "npmdownloads": true,
-    "david": true,
-    "daviddev": true,
-    "gratipay": "docpad",
-    "flattr": "344188/balupton-on-Flattr",
-    "paypal": "QB8GQPZAH84N6",
-    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
-    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+  "author": {
+    "name": "Stas Ukolov",
+    "email": "ukoloff@gmail.com"
   },
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
-  "maintainers": [
-    "Your name <your email> (your github url)",
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-  ],
-  "contributors": [
-    "balupton (https://github.com/balupton)",
-    "RobLoach (https://github.com/RobLoach)"
-  ],
   "bugs": {
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+    "url": "https://github.com/ukoloff/docpad-plugin-without/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+    "url": "https://github.com/ukoloff/docpad-plugin-without.git"
   },
   "engines": {
     "node": ">=0.8"
@@ -46,15 +32,17 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "without": "^1.1.1"
+  },
   "devDependencies": {
     "docpad": "6",
     "coffee-script": "^1.9.1",
     "projectz": "^0.5.0"
   },
-  "main": "./out/yourpluginname.plugin.js",
+  "main": "./out/without.plugin.js",
   "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
+    "test": "node ./out/without.test.js"
   },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
