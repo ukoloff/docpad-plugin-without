@@ -16,7 +16,7 @@ docpad install without
 templates but they are plain Coffee Script!
 
 ``` coffee
-# src/layouts/default.html.wo
+# src/layouts/default.html.coffee
 (tag "!DOCTYPE", true) html: true
 html ->
   head ->
@@ -28,6 +28,9 @@ html ->
     raw @content
     raw @getBlock("scripts").add(["/vendor/jquery.js", "/scripts/script.js"]).toHTML()
 ```
+
+For historic reasons you can put `withOut` templates into `.html.wo` files,
+but recommended extension is `.html.coffee`.
 
 ## License
 
