@@ -1,6 +1,7 @@
 # Without Plugin for DocPad
 
 [![NPM version](https://badge.fury.io/js/docpad-plugin-without.svg)](http://badge.fury.io/js/docpad-plugin-without)
+[![Build Status](https://travis-ci.org/ukoloff/docpad-plugin-without.svg?branch=master)](https://travis-ci.org/ukoloff/docpad-plugin-without)
 
 Use [withOut](https://github.com/ukoloff/without) templates inside
 [DocPad](http://docpad.org) sites.
