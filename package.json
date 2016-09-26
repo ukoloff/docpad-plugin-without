@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-without",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "DocPad plugin that adds the ability to render withOut CoffeeScript templates to HTML",
   "homepage": "https://github.com/ukoloff/docpad-plugin-without",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.9.1",
-    "without": "^1.1.1"
+    "without": "^1.1.2"
   },
   "devDependencies": {
     "docpad": "6",
