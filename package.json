@@ -35,7 +35,7 @@
     "without": "^1.1.2"
   },
   "devDependencies": {
-    "docpad": "6",
+    "docpad": "6.78.5",
     "projectz": "^1.1.2"
   },
   "main": "./out/without.plugin.js",
