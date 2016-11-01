@@ -25,7 +25,7 @@
     "url": "https://github.com/ukoloff/docpad-plugin-without.git"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">= 4"
   },
   "peerDependencies": {
     "docpad": "6"
