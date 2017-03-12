@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.12.2",
-    "without": "^1.2.0"
+    "without": "^1.2.3"
   },
   "devDependencies": {
     "docpad": "6",
